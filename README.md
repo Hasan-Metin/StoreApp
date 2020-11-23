@@ -1,6 +1,6 @@
 
 
-  <h1 align="center">NEWS APP</h1>
+  <h1 align="center">STORE APP</h1>
 <p align="center" >
 <img src="./gifs/GalaxyS10.gif"  height="700"  />
 <img src="./gifs/Iphone12.gif"  height="700"  />
@@ -26,9 +26,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project is my very first practice example of React Native.
+This project is a practice example of React Native.
 
-It is a prototype of a News Mobile App project. Customer can see flash news from this app.
+It is a prototype of a Demo Store Mobile App project. Customer can see all products with their properties and make search of required product by using search bar.
 
 
 ## Built With
@@ -40,8 +40,15 @@ It is a prototype of a News Mobile App project. Customer can see flash news from
 * React Native;
     - Functional Components,
     - Custom Components,
-    - FlatList, TouchableOpacity Built-in Components
-    - Basic Styling
+    - FlatList, TextInput Built-in Components,
+    - Basic Styling,
+    
+ * React;
+    - useState Hook,
+    - props pass functions,
+    
+ * Storage;
+    - Read data from local json file,
 
 
 ## Roadmap
@@ -49,17 +56,18 @@ It is a prototype of a News Mobile App project. Customer can see flash news from
 src
    |- components
    |           |- index.js
-   |           |- NewsBanner.js
-   |           |- NewsCard.js
+   |           |- ProductCard.js
+   |           |- SearchBar.js
    |
-   |- News.js
+   |- Main.js
+   |- product_data.json
    
 </pre>
 
 
 ## Clone The Repo
    ```sh
-   git clone https://github.com/Hasan-Metin/NewsApp.git
+   git clone https://github.com/Hasan-Metin/StoreApp.git
    ```
 
 ## Contributing
@@ -77,14 +85,14 @@ Contributions are what make the open source community such an amazing place to b
 
 Hasan Metin - <a href="mailto: hasan.metinn@outlook.com">hasan.metinn@outlook.com</a>
 
-Project Link: [https://github.com/Hasan-Metin/NewsApp.git](https://github.com/Hasan-Metin/NewsApp.git)
+Project Link: [https://github.com/Hasan-Metin/StoreApp.git](https://github.com/Hasan-Metin/StoreApp.git)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 More feature will be added on soon.
 
-If you have any question or suggestion, feel free to [open an issue](https://github.com/Hasan-Metin/NewsApp/issues).
+If you have any question or suggestion, feel free to [open an issue](https://github.com/Hasan-Metin/StoreApp/issues).
 
 **See y'all !**
 
